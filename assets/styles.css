@@ -92,7 +92,7 @@ body{
 }
 
 #hero{
-    background-image: url("./img/coxinha.jpg");
+    background-image: url("./img/nasa-hubble-space-telescope-L6gI4pQS4ds-unsplash.jpg");
     height: 90vh;
     width: 100%;
     background-position: top 25% right 0%;
@@ -102,7 +102,6 @@ body{
     flex-direction: column;
     align-items: flex-start;
 }
-
 #hero h4{
     padding-bottom: 15px;
 }
@@ -119,6 +118,11 @@ body{
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+    transition: 0.3s ease;
+}
+
+#hero button:hover{
+    color: #1a1a1a;
 }
 
 #features{
@@ -126,7 +130,6 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-
 #features .features-caixa{
     width: 180px;
     text-align: center;
@@ -139,19 +142,16 @@ body{
 #features .features-caixa:hover{
     box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
 }
-
 #features .features-caixa h6{
     padding: 9px 8px 6px 8px;
     border-radius: 4px;
     color: #D07A18;
     background-color: #fddde4;
 }
-
 #features .features-caixa img{
     width: 100%;
     margin-bottom: 10px;
 }
-
 #features .features-caixa:nth-child(2) h6{
     background-color: #cce7d0;
 }
