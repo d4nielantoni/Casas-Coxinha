@@ -167,3 +167,64 @@ body{
 #features .features-caixa:nth-child(6) h6{
     background-color: #e7e6cc;
 }
+
+
+.titulo-sobre{
+    color: #D07A18;
+}
+.texto-sobre{
+    font-size: 20px;
+}
+header {
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+
+.author {
+    text-align: right;
+}
+
+.navbar {
+    background-color: hsl(0, 0%, 15%);
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+aside {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.section-sobre {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+article {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+footer {
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width: 600px) {
+
+    /*Responsive design */
+    aside,
+    section,
+    article {
+        width: 100%;
+    }
+}
+
+
