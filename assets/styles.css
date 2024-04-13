@@ -383,6 +383,9 @@ footer a {
 .slider li:nth-child(3) label {
     left: 70px;
 }
+.slider li:nth-child(4) label {
+    left: 100px;
+}
 
 .slider img,
 .slider .slide-text {
@@ -395,4 +398,23 @@ footer a {
     opacity: 1; /* Quando o input está marcado, aumenta a opacidade para 1 */
     visibility: visible; /* Quando o input está marcado, torna o texto visível */
     z-index: 10;
+}
+
+.slider .slide-description {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(100% + 20px);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    white-space: nowrap;
+    transition: opacity 0.5s ease; /* Adiciona transição suave para a mudança de opacidade */
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider .slide-description.active {
+    opacity: 1;
+    visibility: visible;
 }
