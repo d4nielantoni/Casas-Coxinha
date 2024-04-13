@@ -314,6 +314,9 @@ article {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: block;
     clear: both;
     background-color: hsl(0, 0%, 86%);
