@@ -40,8 +40,8 @@ p {
 }
 
 .section-p1 {
+    margin-top: 150px;
     padding: 40px 80px;
-
 }
 
 .section-m1 {
@@ -333,4 +333,66 @@ footer {
 
 footer a {
     color: black;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    transition: opacity 0.5s ease; /* Adiciona transição suave para a mudança de opacidade */
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img,
+.slider .slide-text {
+    opacity: 0; /* Inicia com opacidade 0 para que o texto não seja visível */
+    visibility: hidden; /* Inicia com visibilidade oculta */
+}
+
+.slider li input:checked ~ img,
+.slider li input:checked ~ .slide-text {
+    opacity: 1; /* Quando o input está marcado, aumenta a opacidade para 1 */
+    visibility: visible; /* Quando o input está marcado, torna o texto visível */
+    z-index: 10;
 }
