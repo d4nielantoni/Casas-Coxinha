@@ -327,29 +327,6 @@ footer {
     border-radius: 20px;
 }
 
-.botao-sobre {
-    text-decoration: none;
-    color: #1a1a1a;
-    font-size: 15px;
-    border: #1a1a1a;
-
-}
-
-.botao-sobre:hover {
-    color: #D07A18;
-
-}
-
-@media screen and (max-width: 600px) {
-
-    /*Responsive design */
-    aside,
-    section,
-    article {
-        width: 100%;
-        padding: 5vw;
-    }
-}
 
 footer a {
     color: black;
