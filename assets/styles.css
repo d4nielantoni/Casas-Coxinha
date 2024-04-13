@@ -334,13 +334,8 @@ footer {
     border: #1a1a1a;
 }
 
-.botao-sobre:hover{
-    color: #D07A18; 
-}
-footer a{
-    /* color: (cor que tu quiser); */
-     text-decoration: none; /*aqui é pra tirar as linhas dos links  */
-     
+.botao-sobre:hover {
+    color: #D07A18;
 }
 
 
