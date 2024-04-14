@@ -354,7 +354,7 @@ footer a {
     height: 100%;
     width: 100%;
     vertical-align: top;
-    transition: opacity 0.5s ease; /* Adiciona transição suave para a mudança de opacidade */
+    transition: opacity 0.5s ease;
 }
 
 .slider input {
@@ -417,4 +417,16 @@ footer a {
 .slider .slide-description.active {
     opacity: 1;
     visibility: visible;
+}
+
+.localizacao-h2{
+    justify-content: center;
+    text-align: center;
+    color: #D07A18;
+}
+iframe{
+    margin: 25px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 500px;
 }

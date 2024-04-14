@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
         descriptions[currentSlide].classList.remove('active');
         currentSlide = (index + slides.length) % slides.length;
         slides[currentSlide].querySelector('input').checked = true;
-        descriptions.forEach(description => description.classList.remove('active')); // Remove a classe 'active' de todas as descrições
-        descriptions[currentSlide].classList.add('active'); // Adiciona a classe 'active' apenas à descrição correspondente ao slide atual
-    }
+        descriptions.forEach(description => description.classList.remove('active'));
+        descriptions[currentSlide].classList.add('active'); 
+}
 
     function nextSlide() {
         showSlide(currentSlide + 1);
