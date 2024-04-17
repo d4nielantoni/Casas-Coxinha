@@ -423,10 +423,12 @@ footer a {
     justify-content: center;
     text-align: center;
     color: #D07A18;
+    margin-top: 20px;
 }
-iframe{
+.iframe{
+    display: flex;
     margin: 25px;
-    text-align: center;
     border-radius: 20px;
-    margin-left: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
