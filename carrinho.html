@@ -3,162 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Carrinho</title>
 </head>
+<link rel="stylesheet" href="./assets/styles.css">
 <body>
     <section id="header">
         <a href=""><img src="./assets/img/pedrologo2-removebg-preview.png" class="logo" alt=""></a>
 
         <div>
             <ul id="navbar">
-                <li><a  href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a class="active" href="carrinho.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="sobre.html">Sobre Nós</a></li>
                 <li><a href="contatos.html ">Contatos</a></li>
                 <li><a href="localização.html">Localização</a></li>
                 <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
-                
             </ul>
         </div>
     </section>
+    <div class="container-carrinho">
 
-    <section id="produto1" class="section-p1">
-        <h2>Produtos</h2>
-        <p>Novos Produtos Disponíveis</p>
-        <div class="produto-container">
-            <div class="produto">
-                <img src="./assets/img/coxinha-frango-catupiry-certo.jpg" alt="">
-                <div class="descricao">
-                    <span>Casas Coxinha</span>
-                    <h5>Coxinha Frango Catupiry</h5>
-                    <div class="reviews">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R$19,90</h4>
+        <h1 class="titulo-carrinho">Novos Produtos</h1>
+
+        <div class="product-grid">
+            <div class="product-grid__item">
+                <div class="product-grid__imagen">
+                    <img src="./assets/img/coxinha-frango-catupiry-certo.jpg" alt="">
                 </div>
-                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+                <div class="product-grid__info">
+                    <p class="product-grid__name">Coxinha Frango Catupiry</p>
+                    <p class="product-grid__price">R$9.00 </p>
+
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-modal="#jsModalCarrito"  >Adicionar</a>
+
+                </div>
+
             </div>
-            <div class="produto">
-                <img src="./assets/img/coxinha4 (1).jpg" alt="">
-                <div class="descricao">
-                    <span>Casas Coxinha</span>
-                    <h5>Coxinha Queijo Coalho</h5>
-                    <div class="reviews">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R$23,90</h4>
+
+            <div class="product-grid__item">
+                <div class="product-grid__imagen">
+                    <img src="./assets/img/coxinha2 (1).jpg" alt="">
                 </div>
-                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+                <div class="product-grid__info">
+                    <p class="product-grid__name">Coxinha Calabresa</p>
+                    <p class="product-grid__price">R$5.00</p>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-modal="#jsModalCarrito" >Adicionar</a>
+                </div>
+
             </div>
-            <div class="produto">
-                <img src="./assets/img/coxinha2 (1).jpg" alt="">
-                <div class="descricao">
-                    <span>Casas Coxinha</span>
-                    <h5>Coxinha Carne de Sol</h5>
-                    <div class="reviews">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R$25,90</h4>
+
+            <div class="product-grid__item">
+                <div class="product-grid__imagen">
+                    <img src="./assets/img/coxinha3 (1).jpg" alt="">
                 </div>
-                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+                <div class="product-grid__info">
+                    <p class="product-grid__name">Coxinha Calabresa</p>
+                    <p class="product-grid__price">R$3.00</p>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-modal="#jsModalCarrito">Adicionar</a>
+                </div>
+
             </div>
-            <div class="produto">
-                <img src="./assets/img/coxinha3 (1).jpg" alt="">
-                <div class="descricao">
-                    <span>Casas Coxinha</span>
-                    <h5>Coxinha Calabresa</h5>
-                    <div class="reviews">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R$27,90</h4>
+
+            <div class="product-grid__item">
+                <div class="product-grid__imagen">
+                    <img src="./assets/img/coxinha4 (1).jpg" alt="">
                 </div>
-                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+                <div class="product-grid__info">
+                    <p class="product-grid__name">Coxinha Brigadeiro</p>
+                    <p class="product-grid__price">R$5.50</p>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-modal="#jsModalCarrito">Adicionar</a>
+                </div>
+
             </div>
-            <div class="produto">
-                <img src="./assets/img/coxinha-passas.jpg" alt="">
-                <div class="descricao">
-                    <span>Casas Coxinha</span>
-                    <h5>Coxinha Arroz com Passas</h5>
-                    <div class="reviews">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R$19,90</h4>
+            
+            <div class="product-grid__item">
+                <div class="product-grid__imagen">
+                    <img src="./assets/img/coxinha_de_mandioca.webp" alt="">
                 </div>
-                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+                <div class="product-grid__info">
+                    <p class="product-grid__name">Coxinha Brigadeiro</p>
+                    <p class="product-grid__price">R$5.50</p>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-modal="#jsModalCarrito">Adicionar</a>
+                </div>
+
             </div>
-            <div class="produto">
-                <img src="./assets/img/coxinha-brigadeiro.jpg" alt="">
-                <div class="descricao">
-                    <span>Casas Coxinha</span>
-                    <h5>Coxinha de Brigadeiro</h5>
-                    <div class="reviews">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R$19,90</h4>
+
+            <div class="product-grid__item">
+                <div class="product-grid__imagen">
+                    <img src="./assets/img/coxinha-brigadeiro.jpg" alt="">
                 </div>
-                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+                <div class="product-grid__info">
+                    <p class="product-grid__name">Coxinha Brigadeiro</p>
+                    <p class="product-grid__price">R$5.50</p>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-modal="#jsModalCarrito">Adicionar</a>
+                </div>
+
             </div>
-            <div class="produto">
-                <img src="./assets/img/coxinha-frango-catupiry-certo.jpg" alt="">
-                <div class="descricao">
-                    <span>Casas Coxinha</span>
-                    <h5>Coxinha Frango Catupiry</h5>
-                    <div class="reviews">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R$19,90</h4>
+
+            <div class="product-grid__item">
+                <div class="product-grid__imagen">
+                    <img src="./assets/img/coxinha-passas.jpg" alt="">
                 </div>
-                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+                <div class="product-grid__info">
+                    <p class="product-grid__name">Coxinha Brigadeiro</p>
+                    <p class="product-grid__price">R$5.50</p>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-modal="#jsModalCarrito">Adicionar</a>
+                </div>
+
             </div>
-            <div class="produto">
-                <img src="./assets/img/coxinha-frango-catupiry-certo.jpg" alt="">
-                <div class="descricao">
-                    <span>Casas Coxinha</span>
-                    <h5>Coxinha Frango Catupiry</h5>
-                    <div class="reviews">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R$19,90</h4>
+
+            <div class="product-grid__item">
+                <div class="product-grid__imagen">
+                    <img src="./assets/img/coxinha4 (1).jpg" alt="">
                 </div>
-                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+                <div class="product-grid__info">
+                    <p class="product-grid__name">Coxinha Brigadeiro</p>
+                    <p class="product-grid__price">R$5.50</p>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-modal="#jsModalCarrito">Adicionar</a>
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="modal" id="jsModalCarrito">
+            <div class="modal__container">
+                <button type="button" class="modal__close fa-solid fa-xmark jsModalClose "></button>
+
+                <div class="modal__info">
+                    <div class="modal__header">
+                        <h2><i class="fa-brands fa-opencart"></i>Carrinho</h2>
+                    </div>
+
+                    <div class="modal__body">
+                        <div class="modal__list">
+                            <div class="modal__item">
+                                <div class="modal__thumb">
+                                    <img src="./assets/img/coxinha-frango-catupiry-certo.jpg" alt="Naranja">
+                                </div>
+                                <div class="modal__text-product">
+                                    <p>Coxinha Frango Catupiry</p>
+                                    <p><strong>R$9.00</strong></p>
+                                </div>
+                            </div>
+
+
+                            <div class="modal__item">
+                                <div class="modal__thumb">
+                                    <img src="./assets/img/coxinha2 (1).jpg" >
+
+                                </div>
+                                <div class="modal__text-product">
+                                    <p>Coxinha Calabresa</p>
+                                    <p><strong>R$5.00</strong></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="modal__footer">
+                        <div class="modal__list-price">
+                            <ul>
+                                <li>Subtotal: <strong>R$14.00</strong></li>
+                                <li>Desconto: <strong>R$0.00</strong></li>
+                            </ul>
+                            <h4 class="modal__total-cart"> Total: R$14.00</h4>
+                        </div>
+
+                        <div class="modal__btns">
+                            <a href="#" class="btn-border">Ir ao carrinho</a>
+                            <a href="#" class="btn-primary">Comprar Agora</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    <script src="https://kit.fontawesome.com/e9e5e34571.js" crossorigin="anonymous"></script>
+
+    </div>
     <script src="./assets/script.js"></script>
 </body>
 </html>
