@@ -1097,8 +1097,8 @@ footer p {
 }
 
 #contatos a {
-    margin: 0 10px; /* Adiciona um espaçamento horizontal de 10px entre os ícones */
-    color: #333; /* Define a cor dos ícones (pode ajustar conforme necessário) */
+    margin: 0 10px;
+    color: #333; 
 }
 
 #contatos-icones {
@@ -1174,4 +1174,17 @@ footer p {
         left: auto; /* Remove a posição 'left' definida anteriormente */
         right: calc((100% - 40px) / 4); /* Calcula a posição da marca de navegação */
     }
+    #contatos {
+        padding: 20px; /* Adiciona espaço interno */
+      }
+    
+      /* Estilos para os ícones de contatos */
+      #contatos-icones {
+        text-align: center; /* Centraliza os ícones */
+      }
+    
+      #contatos-icones a {
+        display: inline-block; /* Exibe os ícones em linha */
+        margin: 10px; /* Adiciona espaço entre os ícones */
+      }
 }
