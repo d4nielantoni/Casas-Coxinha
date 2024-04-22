@@ -758,3 +758,91 @@ img{
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    #hero {
+        background-position: center;
+        height: 80vh;
+        padding: 0 20px;
+    }
+
+    #hero h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    #hero h2 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    #hero button {
+        padding: 12px 40px 12px 35px;
+        font-size: 14px;
+    }
+
+    .slider {
+        height: 200px;
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .produto {
+        width: 48%;
+        min-width: auto;
+        margin: 15px 0;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #navbar li {
+        margin: 10px;
+    }
+
+    #hero h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    #hero h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .produto {
+        width: 100%;
+    }
+
+    .produto-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .slider {
+        height: 150px;
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .modal__container {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .modal__close {
+        left: auto;
+        right: -50px;
+    }
+}
