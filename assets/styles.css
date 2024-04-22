@@ -252,7 +252,6 @@ body {
     color: #088178;
 }
 
-
 .titulo-sobre {
     color: #D07A18;
 }
@@ -260,7 +259,10 @@ body {
 .texto-sobre {
     font-size: 20px;
 }
-
+.localizacao-sobre{
+    justify-content: center;
+    text-align: center;
+}
 header {
     background-color: hsl(0, 0%, 86%);
     text-align: center;
@@ -1126,10 +1128,10 @@ footer p {
     }
     #header {
         background-color: #f8f9fa;
-        padding: 10px 20px; /* Reduzindo o padding para diminuir a altura */
+        padding: 10px 20px; 
         display: flex;
-        flex-direction: column; /* Define a direção como coluna */
-        justify-content: center; /* Centraliza verticalmente os itens */
+        flex-direction: column; 
+        justify-content: center;
         align-items: center;
         /* position: sticky; */
         top: 0;
@@ -1140,51 +1142,52 @@ footer p {
         list-style-type: none;
         padding: 0;
         display: flex;
-        flex-direction: column; /* Define a direção como coluna */
+        flex-direction: column;
         align-items: center;
     }
     #navbar li {
-        margin-bottom: 10px; /* Adiciona um espaçamento entre os itens */
+        margin-bottom: 10px;
     }
 
     #navbar li a {
-        font-size: 14px; /* Define o tamanho da fonte para os itens da barra de navegação */
-        padding: 10px; /* Adiciona preenchimento interno aos itens da barra de navegação */
+        font-size: 14px; 
+        padding: 10px; 
     }
     .slider {
-        height: 200px; /* Define a altura do slider para 200px */
-        width: 80%; /* Define a largura do slider para 80% da largura da tela */
-        margin: auto; /* Centraliza o slider na tela */
-        margin-top: 50px; /* Ajusta a margem superior para o posicionamento */
+        height: 200px; 
+        width: 80%; 
+        margin: auto; 
+        margin-top: 50px; 
     }
 
     .slider .slide-description {
-        display: none; /* Oculta a descrição do slider */
+        display: none; 
     }
 
     .slider li label {
-        left: auto; /* Remove a posição 'left' definida anteriormente */
-        right: 0; /* Alinha as marcas de navegação à direita */
+        left: auto; 
+        right: 0; 
     }
 
     .slider li:nth-child(1) label,
     .slider li:nth-child(2) label,
     .slider li:nth-child(3) label,
     .slider li:nth-child(4) label {
-        left: auto; /* Remove a posição 'left' definida anteriormente */
-        right: calc((100% - 40px) / 4); /* Calcula a posição da marca de navegação */
+        left: auto;
+        right: calc((100% - 40px) / 4);
     }
     #contatos {
-        padding: 20px; /* Adiciona espaço interno */
+        padding: 20px; 
       }
     
-      /* Estilos para os ícones de contatos */
+      
       #contatos-icones {
-        text-align: center; /* Centraliza os ícones */
+        text-align: center; 
       }
     
       #contatos-icones a {
-        display: inline-block; /* Exibe os ícones em linha */
-        margin: 10px; /* Adiciona espaço entre os ícones */
+        display: inline-block; 
+        color: #000000;
+        margin: 10px; 
       }
 }
