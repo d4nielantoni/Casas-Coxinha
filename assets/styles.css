@@ -1108,7 +1108,7 @@ footer p {
         flex-direction: column; /* Define a direção como coluna */
         justify-content: center; /* Centraliza verticalmente os itens */
         align-items: center;
-        position: sticky;
+        /* position: sticky; */
         top: 0;
         z-index: 1000;
     }
