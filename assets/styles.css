@@ -1102,4 +1102,27 @@ footer p {
     .sobre-secundario article{
         width: 100%;
     }
+    .slider {
+        height: 200px; /* Define a altura do slider para 200px */
+        width: 80%; /* Define a largura do slider para 80% da largura da tela */
+        margin: auto; /* Centraliza o slider na tela */
+        margin-top: 50px; /* Ajusta a margem superior para o posicionamento */
+    }
+
+    .slider .slide-description {
+        display: none; /* Oculta a descrição do slider */
+    }
+
+    .slider li label {
+        left: auto; /* Remove a posição 'left' definida anteriormente */
+        right: 0; /* Alinha as marcas de navegação à direita */
+    }
+
+    .slider li:nth-child(1) label,
+    .slider li:nth-child(2) label,
+    .slider li:nth-child(3) label,
+    .slider li:nth-child(4) label {
+        left: auto; /* Remove a posição 'left' definida anteriormente */
+        right: calc((100% - 40px) / 4); /* Calcula a posição da marca de navegação */
+    }
 }
