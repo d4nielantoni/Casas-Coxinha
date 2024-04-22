@@ -1049,7 +1049,6 @@ body {
     background-color: #D05D07;
 }
 
-/* Artigo */
 .artigo-container {
     display: flex;
     justify-content: space-between;
@@ -1102,15 +1101,27 @@ footer p {
     .sobre-secundario article{
         width: 100%;
     }
-    #navbar {
-        flex-direction: column; /* Altera a direção do flexbox para exibir os itens verticalmente */
-        align-items: center; /* Centraliza os itens na barra de navegação */
-        padding: 0; /* Remove o preenchimento da barra de navegação */
-        
+    #header {
+        background-color: #f8f9fa;
+        padding: 10px 20px; /* Reduzindo o padding para diminuir a altura */
+        display: flex;
+        flex-direction: column; /* Define a direção como coluna */
+        justify-content: center; /* Centraliza verticalmente os itens */
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
     }
-
+    
+    #navbar {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column; /* Define a direção como coluna */
+        align-items: center;
+    }
     #navbar li {
-        margin: 5px 0; /* Adiciona uma margem uniforme na vertical entre os itens da barra de navegação */
+        margin-bottom: 10px; /* Adiciona um espaçamento entre os itens */
     }
 
     #navbar li a {
