@@ -1102,6 +1102,21 @@ footer p {
     .sobre-secundario article{
         width: 100%;
     }
+    #navbar {
+        flex-direction: column; /* Altera a direção do flexbox para exibir os itens verticalmente */
+        align-items: center; /* Centraliza os itens na barra de navegação */
+        padding: 0; /* Remove o preenchimento da barra de navegação */
+        
+    }
+
+    #navbar li {
+        margin: 5px 0; /* Adiciona uma margem uniforme na vertical entre os itens da barra de navegação */
+    }
+
+    #navbar li a {
+        font-size: 14px; /* Define o tamanho da fonte para os itens da barra de navegação */
+        padding: 10px; /* Adiciona preenchimento interno aos itens da barra de navegação */
+    }
     .slider {
         height: 200px; /* Define a altura do slider para 200px */
         width: 80%; /* Define a largura do slider para 80% da largura da tela */
