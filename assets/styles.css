@@ -787,6 +787,7 @@ img{
 /* Estilos para telas ainda menores, como smartphones em modo retrato */
 @media screen and (max-width: 480px) {
     /* Alteração para colocar os textos um embaixo do outro */
+    aside,
     .section-sobre,
     article,
     .sobre-secundario aside,
@@ -1090,4 +1091,15 @@ footer p {
     font-size: 14px;
     line-height: 20px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    aside,
+    .section-sobre,
+    article,
+    .sobre-secundario aside,
+    .sobre-secundario article{
+        width: 100%;
+    }
 }
