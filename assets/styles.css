@@ -387,14 +387,14 @@ footer a {
 
 .slider img,
 .slider .slide-text {
-    opacity: 0; /* Inicia com opacidade 0 para que o texto não seja visível */
-    visibility: hidden; /* Inicia com visibilidade oculta */
+    opacity: 0; 
+    visibility: hidden; 
 }
 
 .slider li input:checked ~ img,
 .slider li input:checked ~ .slide-text {
-    opacity: 1; /* Quando o input está marcado, aumenta a opacidade para 1 */
-    visibility: visible; /* Quando o input está marcado, torna o texto visível */
+    opacity: 1;
+    visibility: visible; 
     z-index: 10;
 }
 
@@ -407,7 +407,7 @@ footer a {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     white-space: nowrap;
-    transition: opacity 0.5s ease; /* Adiciona transição suave para a mudança de opacidade */
+    transition: opacity 0.5s ease;
     opacity: 0;
     visibility: hidden;
 }
@@ -1078,7 +1078,6 @@ body {
     width: 40%;
 }
 
-/* Rodapé */
 footer {
     background-color: #f3f4f6;
     padding: 40px 80px;
@@ -1091,7 +1090,31 @@ footer p {
     line-height: 20px;
     margin-top: 20px;
 }
+#contatos {
+    text-align: center; 
+    margin-top: 40px; 
+    margin-bottom: 80px;
+}
 
+#contatos a {
+    margin: 0 10px; /* Adiciona um espaçamento horizontal de 10px entre os ícones */
+    color: #333; /* Define a cor dos ícones (pode ajustar conforme necessário) */
+}
+
+#contatos-icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; 
+}
+#contatos-icones a{
+    color: #000;
+}
+
+#contatos-icones > * {
+    margin-top: 30px;
+    margin: 0 10px; 
+}
 @media screen and (max-width: 600px) {
 
     aside,
