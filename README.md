@@ -2,9 +2,16 @@
 
 ---
 
+## Integrantes: 
+- Daniel Antoni de Moura Soares
+- Yan Rufino Torres de Sá
+- Pedro Danilo Duarte da Silva
+
+---
+
 ## Descrição:
 
-Bem-vindo ao repositório do projeto Casas Coxinha! Este é um projeto de uma loja virtual fictícia que oferece uma variedade de coxinhas. Este projeto utiliza HTML, CSS e JavaScript para criar uma experiência interativa e atraente para os usuários. Em seguida iremos resumir suas páginas.
+Bem-vindo ao repositório do projeto Casas Coxinha! Este é um projeto de uma loja virtual fictícia que oferece uma variedade de coxinhas. Este projeto utiliza HTML, CSS e JavaScript para criar uma experiência interativa e atraente para os usuários. Em seguida iremos resumir um pouco das suas páginas.
 
 ---
 
@@ -69,7 +76,9 @@ Bem-vindo ao repositório do projeto Casas Coxinha! Este é um projeto de uma lo
 
 ## Contribuição:
 
-Se você deseja contribuir para este projeto, sinta-se à vontade para fazer um fork do repositório e enviar suas sugestões através de pull requests. Todos os tipos de contribuições são bem-vindos, desde correções de bugs até melhorias de funcionalidades e design.
+Cada membro do grupo foi responsável pela implementação de uma das páginas e decidimos adotar o livre arbítrio dos participantes em contribuir. Inicialmente, dividimos os projetos para focar na implementação da página index.html, priorizando o uso de um design que pudesse ser reaproveitado em todas as páginas, incluindo headers e footers. Em seguida, determinamos o produto central do nosso site, optando por criar um site de coxinhas para destacar nossa proposta única e criatividade. A partir dessa decisão, aplicamos nossa criatividade na escolha dos produtos a serem apresentados na loja, assegurando que estivessem alinhados com a estética desejada. Após diversos testes, commits e ajustes, chegamos à conclusão de que essa seria a melhor abordagem para o projeto.
+
+Todos os integrantes contribuíram para a seleção dos elementos visuais, como imagens, cores, entre outros. Além disso, cada um teve participação ativa na construção de todas as páginas do projeto, garantindo uma colaboração completa e integrada.
 
 ---
 
