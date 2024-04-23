@@ -52,19 +52,6 @@ body {
     width: 100%;
 }
 
-/* #header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 80px;
-    background: #e3e6f3;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-    z-index: 999;
-    position: sticky;
-    top: 0;
-    left: 0;
-} */
-
 #navbar {
     display: flex;
     align-items: center;
@@ -334,7 +321,6 @@ footer {
     height: 200px;
     border-radius: 20px;
 }
-
 
 footer a {
     color: black;
@@ -772,7 +758,6 @@ img {
     }
 }
 
-
 @media (max-width: 600px) {
     .product-grid {
         grid-template-columns: 1fr;
@@ -780,8 +765,6 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-
-    /* Alteração para colocar os textos um embaixo do outro */
     aside,
     .section-sobre,
     article,
@@ -790,27 +773,18 @@ img {
         width: 100%;
         flex-direction: column;
     }
-
-
     .img-sobre {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .img-sobre img {
         width: 100%;
         max-width: 300px;
-        /* Ajuste o tamanho máximo conforme necessário */
         margin-bottom: 20px;
-        /* Espaçamento entre as imagens e o rodapé */
     }
 }
-
-/* Estilos para telas ainda menores, como smartphones em modo retrato */
 @media screen and (max-width: 480px) {
-
-    /* Alteração para colocar os textos um embaixo do outro */
     aside,
     .section-sobre,
     article,
@@ -821,7 +795,6 @@ img {
     }
 }
 
-/* Restante do CSS que você forneceu */
 .logo {
     width: 100px;
     height: 100px;
@@ -867,19 +840,6 @@ p {
 body {
     width: 100%;
 }
-
-/* #header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 80px;
-    background: #e3e6f3;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-    z-index: 999;
-    position: sticky;
-    top: 0;
-    left: 0;
-} */
 
 #navbar {
     display: flex;
@@ -1142,7 +1102,6 @@ footer p {
     margin: 0 10px;
 }
 
-/* Estilo para os botões de categoria */
 .category-buttons {
     display: flex;
     justify-content: center;
