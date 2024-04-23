@@ -63,17 +63,6 @@ Bem-vindo ao repositório do projeto Casas Coxinha! Este é um projeto de uma lo
 
 ---
 
-## Instruções de Uso:
-
-1. Clone este repositório em sua máquina local.
-2. Abra o arquivo `index.html` em seu navegador web.
-3. Navegue pelo catálogo de coxinhas e adicione os itens desejados ao carrinho.
-4. Visualize e edite seu carrinho de compras conforme necessário.
-5. Preencha o formulário de pedido com suas informações de contato e entrega.
-6. Envie o pedido e aguarde a confirmação.
-
----
-
 ## Contribuição:
 
 Cada membro do grupo foi responsável pela implementação de uma das páginas e decidimos adotar o livre arbítrio dos participantes em contribuir. Inicialmente, dividimos os projetos para focar na implementação da página index.html, priorizando o uso de um design que pudesse ser reaproveitado em todas as páginas, incluindo headers e footers. Em seguida, determinamos o produto central do nosso site, optando por criar um site de coxinhas para destacar nossa proposta única e criatividade. A partir dessa decisão, aplicamos nossa criatividade na escolha dos produtos a serem apresentados na loja, assegurando que estivessem alinhados com a estética desejada. Após diversos testes, commits e ajustes, chegamos à conclusão de que essa seria a melhor abordagem para o projeto.
