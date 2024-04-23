@@ -1279,3 +1279,16 @@ footer p {
 .mensagem button:hover {
     background-color: #D06E05;
 }
+
+
+.blog-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-audio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
