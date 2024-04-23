@@ -1120,11 +1120,11 @@ footer p {
 }
 
 .category-btn:hover {
-    background-color: #cccccc;
+    background-color: #FFB347;
 }
 
 .active-btn {
-    background-color: orange;
+    background-color: #E0952E;
 }
 
 @media screen and (max-width: 600px) {
