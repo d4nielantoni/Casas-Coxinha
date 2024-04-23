@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const slides = document.querySelectorAll('.slider li');
     const descriptions = document.querySelectorAll('.slider .slide-description');
 
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         currentSlide = (index + slides.length) % slides.length;
         slides[currentSlide].querySelector('input').checked = true;
         descriptions.forEach(description => description.classList.remove('active'));
-        descriptions[currentSlide].classList.add('active'); 
+        descriptions[currentSlide].classList.add('active');
     }
 
     function nextSlide() {
@@ -85,3 +85,50 @@ window.onclick = (event) => {
         modal.classList.remove('active');
     }
 };
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Evento de clique no botão Bebidas
+    document.querySelector('.category-btn[data-category="Bebidas"]').addEventListener('click', function () {
+        // Filtra os produtos para mostrar apenas bebidas
+        const allProducts = document.querySelectorAll('.product-grid__item');
+        allProducts.forEach(function (product) {
+            const category = product.getAttribute('data-category');
+            // Verifica a categoria do produto
+            if (category !== 'Bebidas') {
+                product.style.display = 'none';
+            } else {
+                product.style.display = 'block';
+            }
+        });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('.category-btn[data-category="Comidas"]').addEventListener('click', function () {
+        const allProducts = document.querySelectorAll('.product-grid__item');
+        allProducts.forEach(function (product) {
+            const category = product.getAttribute('data-category');
+            // Verifica a categoria do produto
+            if (category !== 'Comidas') {
+                product.style.display = 'none';
+            } else {
+                product.style.display = 'block';
+            }
+        });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('.category-btn[data-category="Produtos"]').addEventListener('click', function () {
+        const allProducts = document.querySelectorAll('.product-grid__item');
+        allProducts.forEach(function (product) {
+            const category = product.getAttribute('data-category');
+            // Verifica a categoria do produto
+            if (category !== 'Produtos') {
+                product.style.display = 'none';
+            } else {
+                product.style.display = 'block';
+            }
+        });
+    });
+});

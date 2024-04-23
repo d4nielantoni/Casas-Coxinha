@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho</title>
 </head>
 <link rel="stylesheet" href="./assets/styles.css">
+
 <body>
     <section id="header">
         <a href=""><img src="./assets/img/pedrologo2-removebg-preview.png" class="logo" alt=""></a>
@@ -26,8 +28,15 @@
 
         <h1 class="titulo-carrinho">Novos Produtos</h1>
 
+        <div class="category-buttons">
+            <button class="category-btn" data-category="Comidas">Comidas</button>
+            <button class="category-btn" data-category="Bebidas">Bebidas</button>
+            <button class="category-btn" data-category="Produtos">Produtos</button>
+        </div>
+        <br>
+
         <div class="product-grid">
-            <div class="product-grid__item">
+            <div class="product-grid__item" data-category="Comidas">
                 <div class="product-grid__imagen">
                     <img src="./assets/img/coxinha-frango-catupiry-certo.jpg" alt="">
                 </div>
@@ -35,11 +44,13 @@
                 <div class="product-grid__info">
                     <p class="product-grid__name">Coxinha Frango Catupiry</p>
                     <p class="product-grid__price">R$9.00 </p>
-                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-product="coxinha-frango-catupiry" data-price="9.00" data-modal="#jsModalCarrito">Adicionar</a>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart"
+                        data-product="coxinha-frango-catupiry" data-price="9.00"
+                        data-modal="#jsModalCarrito">Adicionar</a>
                 </div>
             </div>
 
-            <div class="product-grid__item">
+            <div class="product-grid__item" data-category="Comidas">
                 <div class="product-grid__imagen">
                     <img src="./assets/img/coxinha1 (1).jpg" alt="">
                 </div>
@@ -47,11 +58,12 @@
                 <div class="product-grid__info">
                     <p class="product-grid__name">Coxinha Carne de Sol</p>
                     <p class="product-grid__price">R$7.50</p>
-                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-product="coxinha-carne-sol" data-price="7.50" data-modal="#jsModalCarrito">Adicionar</a>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart"
+                        data-product="coxinha-carne-sol" data-price="7.50" data-modal="#jsModalCarrito">Adicionar</a>
                 </div>
             </div>
 
-            <div class="product-grid__item">
+            <div class="product-grid__item" data-category="Comidas">
                 <div class="product-grid__imagen">
                     <img src="./assets/img/coxinha-calabresa.jpg" alt="">
                 </div>
@@ -59,11 +71,12 @@
                 <div class="product-grid__info">
                     <p class="product-grid__name">Coxinha Calabresa</p>
                     <p class="product-grid__price">R$8.00</p>
-                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-product="coxinha-calabresa" data-price="8.00" data-modal="#jsModalCarrito">Adicionar</a>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart"
+                        data-product="coxinha-calabresa" data-price="8.00" data-modal="#jsModalCarrito">Adicionar</a>
                 </div>
             </div>
 
-            <div class="product-grid__item">
+            <div class="product-grid__item" data-category="Comidas">
                 <div class="product-grid__imagen">
                     <img src="./assets/img/coxinha-queijo.jpg" alt="">
                 </div>
@@ -71,11 +84,12 @@
                 <div class="product-grid__info">
                     <p class="product-grid__name">Coxinha Queijo Coalho</p>
                     <p class="product-grid__price">R$9.00</p>
-                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-product="coxinha-queijo" data-price="9.00" data-modal="#jsModalCarrito">Adicionar</a>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart"
+                        data-product="coxinha-queijo" data-price="9.00" data-modal="#jsModalCarrito">Adicionar</a>
                 </div>
             </div>
 
-            <div class="product-grid__item">
+            <div class="product-grid__item" data-category="Comidas">
                 <div class="product-grid__imagen">
                     <img src="./assets/img/coxinha-brigadeiro.jpg" alt="">
                 </div>
@@ -83,11 +97,12 @@
                 <div class="product-grid__info">
                     <p class="product-grid__name">Coxinha Brigadeiro</p>
                     <p class="product-grid__price">R$9.00</p>
-                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-product="coxinha-brigadeiro" data-price="9.00" data-modal="#jsModalCarrito">Adicionar</a>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart"
+                        data-product="coxinha-brigadeiro" data-price="9.00" data-modal="#jsModalCarrito">Adicionar</a>
                 </div>
             </div>
 
-            <div class="product-grid__item">
+            <div class="product-grid__item" data-category="Comidas">
                 <div class="product-grid__imagen">
                     <img src="./assets/img/coxinha-passas.jpg" alt="">
                 </div>
@@ -95,11 +110,12 @@
                 <div class="product-grid__info">
                     <p class="product-grid__name">Coxinha Passas</p>
                     <p class="product-grid__price">R$9.00</p>
-                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-product="coxinha-passas" data-price="9.00" data-modal="#jsModalCarrito">Adicionar</a>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart"
+                        data-product="coxinha-passas" data-price="9.00" data-modal="#jsModalCarrito">Adicionar</a>
                 </div>
             </div>
 
-            <div class="product-grid__item">
+            <div class="product-grid__item" data-category="Bebidas">
                 <div class="product-grid__imagen">
                     <img src="./assets/img/coca-cola.jpg" alt="">
                 </div>
@@ -107,11 +123,12 @@
                 <div class="product-grid__info">
                     <p class="product-grid__name">Coca-Cola</p>
                     <p class="product-grid__price">R$4.50</p>
-                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-product="coca-cola" data-price="4.50" data-modal="#jsModalCarrito">Adicionar</a>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart"
+                        data-product="coca-cola" data-price="4.50" data-modal="#jsModalCarrito">Adicionar</a>
                 </div>
             </div>
 
-            <div class="product-grid__item">
+            <div class="product-grid__item" data-category="Bebidas">
                 <div class="product-grid__imagen">
                     <img src="./assets/img/coca-cola-zero.jpg" alt="">
                 </div>
@@ -119,7 +136,8 @@
                 <div class="product-grid__info">
                     <p class="product-grid__name">Coca Cola Zero</p>
                     <p class="product-grid__price">R$4.50</p>
-                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-product="coca-cola-zero" data-price="4.50" data-modal="#jsModalCarrito">Adicionar</a>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart"
+                        data-product="coca-cola-zero" data-price="4.50" data-modal="#jsModalCarrito">Adicionar</a>
                 </div>
             </div>
         </div>
@@ -170,4 +188,5 @@
     </footer>
     <script src="./assets/script.js"></script>
 </body>
+
 </html>
