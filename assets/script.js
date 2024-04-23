@@ -86,9 +86,26 @@ window.onclick = (event) => {
     }
 };
 
+//Botoes das categorias
+
 document.addEventListener('DOMContentLoaded', function () {
+    // Obter todos os botões de categoria
+    const categoryButtons = document.querySelectorAll('.category-btn');
+
+    // Função para atualizar a classe ativa
+    function updateActiveButton(clickedButton) {
+        // Remover a classe ativa de todos os botões
+        categoryButtons.forEach(button => {
+            button.classList.remove('active-btn');
+        });
+        // Adicionar a classe ativa ao botão clicado
+        clickedButton.classList.add('active-btn');
+    }
+
     // Evento de clique no botão Bebidas
     document.querySelector('.category-btn[data-category="Bebidas"]').addEventListener('click', function () {
+        // Atualizar o botão ativo
+        updateActiveButton(this);
         // Filtra os produtos para mostrar apenas bebidas
         const allProducts = document.querySelectorAll('.product-grid__item');
         allProducts.forEach(function (product) {
@@ -101,10 +118,12 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
-});
 
-document.addEventListener('DOMContentLoaded', function () {
+    // Evento de clique no botão Comidas
     document.querySelector('.category-btn[data-category="Comidas"]').addEventListener('click', function () {
+        // Atualizar o botão ativo
+        updateActiveButton(this);
+        // Filtra os produtos para mostrar apenas comidas
         const allProducts = document.querySelectorAll('.product-grid__item');
         allProducts.forEach(function (product) {
             const category = product.getAttribute('data-category');
@@ -116,10 +135,12 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
-});
 
-document.addEventListener('DOMContentLoaded', function () {
+    // Evento de clique no botão Produtos
     document.querySelector('.category-btn[data-category="Produtos"]').addEventListener('click', function () {
+        // Atualizar o botão ativo
+        updateActiveButton(this);
+        // Filtra os produtos para mostrar apenas produtos
         const allProducts = document.querySelectorAll('.product-grid__item');
         allProducts.forEach(function (product) {
             const category = product.getAttribute('data-category');
