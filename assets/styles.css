@@ -100,7 +100,6 @@ body {
     position: absolute;
     bottom: -4px;
     left: 20px;
-
 }
 
 #hero {
@@ -426,13 +425,21 @@ footer a {
     visibility: visible;
 }
 
-.localizacao-h2 {
+.localizacao-h2{
+    justify-content: center;
+    text-align: center;
+    color: #D07A18;
+}
+.localizacao-h2 h2{
     justify-content: center;
     text-align: center;
     color: #D07A18;
     margin-top: 20px;
 }
-
+.localizacao-h2 > iframe{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
 .iframe {
     display: flex;
     margin: 25px;
